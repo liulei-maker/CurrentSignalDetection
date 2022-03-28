@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\USMART -I..\CORE -I..\STM32F10x_FWLib\inc -I..\HARDWARE\DATASAMPLING -I..\HARDWARE\SPI -I..\HARDWARE\TIMER -I..\HARDWARE\WDG -I..\HARDWARE\IIC -I..\HARDWARE\FDC2X12 -I..\HARDWARE\FM25V02 
+-I D:\Keil\ARM\RV31\INC 
+-I D:\Keil\ARM\CMSIS\Include 
+-I D:\Keil\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\fdc2x12.o" --omf_browse "..\OBJ\fdc2x12.crf" --depend "..\OBJ\fdc2x12.d" "..\HARDWARE\FDC2X12\FDC2X12.c"
